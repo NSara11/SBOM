@@ -73,10 +73,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</build>
-<plugins>
-  <plugin>
+			</build>
+			<plugin>
      <groupId>org.cyclonedx</groupId>
      <artifactId>cyclonedx-maven-plugin</artifactId>
      <version>2.6.2</version>
@@ -92,9 +90,7 @@
          <outputFormat>Json</outputFormat>
      </configuration>
   </plugin>
-</plugins>
-<plugins>
-  <plugin>
+			 <plugin>
      <dependency>
         <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
@@ -113,5 +109,6 @@
         </executions>
      </dependency>
   </plugin>
-</plugins>
+		</plugins>
+	
 </project>
