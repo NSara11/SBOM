@@ -89,6 +89,6 @@
        			  	<outputFormat>Json</outputFormat>
      			</configuration>
   			</plugin>
-			<plugin>
+		</plugins>
 	</build>
 </project>
