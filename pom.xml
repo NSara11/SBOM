@@ -75,7 +75,6 @@
 			</plugin>
 		</plugins>
 	</build>
-<!-- snip -->
 <plugins>
   <plugin>
      <groupId>org.cyclonedx</groupId>
@@ -94,8 +93,6 @@
      </configuration>
   </plugin>
 </plugins>
-<!-- snip -->
-	<!-- snip -->
 <plugins>
   <plugin>
      <dependency>
@@ -117,5 +114,4 @@
      </dependency>
   </plugin>
 </plugins>
-<!-- snip -->
 </project>
