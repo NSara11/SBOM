@@ -90,7 +90,7 @@
      			</configuration>
   			</plugin>
 			<plugin>
-     <dependency>
+     <dependencies>
         <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
         <version>7.1.0</version>
@@ -106,7 +106,7 @@
               </goals>
            </execution>
         </executions>
-     </dependency>
+     </dependencies>
   </plugin>
 		</plugins>
 	</build>
