@@ -90,24 +90,5 @@
      			</configuration>
   			</plugin>
 			<plugin>
-     <dependencies>
-        <!--<groupId>org.owasp</groupId> -->
-        <artifactId>dependency-check-maven</artifactId>
-        <version>7.1.0</version>
-        <configuration>
-          <format>JSON</format>
-          <cveStartYear>2010</cveStartYear>
-        </configuration>
-        <type>maven-plugin</type>
-        <executions>
-           <execution>
-              <goals>
-                 <goal>check</goal>
-              </goals>
-           </execution>
-        </executions>
-     </dependencies>
-  </plugin>
-		</plugins>
 	</build>
 </project>
